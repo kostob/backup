@@ -2,7 +2,7 @@
 This is a simple programm to create a backup from a directory.
 
 ## How it will work
-For each backup a new folder with the current timestamp will be created. If there are modified files, since the last backup they will be copied. If a file was not modified a hardlink to the previous backup will be created. The file won't be copied in that case.
+For each backup a new folder with the current timestamp will be created. If there are modified files since the last backup they will be copied. If a file was not modified a hardlink to the previous backup will be created. The file won't be copied in that case.
 
 ---
 
